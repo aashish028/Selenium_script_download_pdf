@@ -1,0 +1,68 @@
+{
+  "id": "b3d45d39-0800-405e-8ac2-c920af095958",
+  "version": "2.0",
+  "name": "Microsoft Project_2",
+  "url": "https://dfpd.gov.in/Home/DocumentReport?language=1",
+  "tests": [{
+    "id": "6c7a481b-424a-4fa0-ae3d-1f92e3905c93",
+    "name": "Test3",
+    "commands": [{
+      "id": "ef80d59e-c38e-4c80-8294-86ce4140cdfb",
+      "comment": "",
+      "command": "open",
+      "target": "https://dfpd.gov.in/Home/DocumentReport?language=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f724bd00-f8e9-46c2-bf23-b28377ddbeeb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "958x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e4fe0ce-f459-498f-9c90-f21319a06134",
+      "comment": "",
+      "command": "pause",
+      "target": "20",
+      "targets": [],
+      "value": "20"
+    }, {
+      "id": "ff40c1ee-e49e-4684-9fe2-a4dfe45bd2ca",
+      "comment": "",
+      "command": "waitForElementEditable",
+      "target": "css=.odd:nth-child(1) .img-fluid",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d2c3c19-fc8b-448c-9571-0cc2afc424b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.odd:nth-child(1) .img-fluid",
+      "targets": [
+        ["css=.odd:nth-child(1) .img-fluid", "css:finder"],
+        ["xpath=//img[@title='download']", "xpath:img"],
+        ["xpath=//table[@id='dataTable']/tbody/tr/td[3]/a/img", "xpath:idRelative"],
+        ["xpath=//td[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e88d65a-787a-4c4a-9398-9c00b5cfc1e4",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
+      "targets": [],
+      "value": "10000"
+    }]
+  }],
+  "suites": [{
+    "id": "7727ec76-d7eb-4948-92dc-218e91bcbee6",
+    "name": "",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.education.gov.in/", "https://www.education.gov.in/documents_reports", "https://dfpd.gov.in/Home/DocumentReport?language=1"],
+  "plugins": []
+}
